@@ -1,0 +1,25 @@
+[project]
+title = "Super Market Analysis"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py" 
+
+[branding]
+name = "Super MArket Analysis"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+secondary_color = "#ff7f0e"
+
+[data.Preswald_db]
+host = "localhost"           
+port = 3306                 
+dbname = "Preswald"        
+user = "root"                
+
+[data.Supermk]
+type = "csv"
+path = "data/Supermk.csv"
+
+
